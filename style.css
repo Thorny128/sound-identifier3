@@ -1,0 +1,34 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: lightcoral;
+}
+
+.header_div{
+    background:lightblue;
+    color:black;
+}
+.header_div p{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    font-size: 18px;
+    font-weight: italic;
+  }
+  .main_div button{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    width: 120px;
+    font-weight: italic;
+    letter-spacing: 3px;
+  }
+
+  
+  .copy_right_footer {
+   position: fixed;
+   color: gray;
+   bottom: 0;
+   width: 100%;
+   font-size: 18px;
+   background-color: lightgoldenrodyellow;
+   line-height: 3;
+   text-align: center;
+}

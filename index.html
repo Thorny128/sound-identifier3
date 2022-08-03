@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="col-xs-12 header_div text-center">
+            <h2>Sound Controlled Animals</h2>
+            <p>Play sounds such as mooing, meowing, etc.</p>
+        </div>
+        <div class="main_div">
+            <center>
+                <button class="btn btn-info" onClick="startClassification()">Start</button>
+                <h4 id="sound_count"></h4>
+                <h3 id="sound_name"></h3>
+                <br>
+                <img id="animal_pic" src="defaultimg.png" width="300" height="300">
+            </center>
+        </div>
+        <div class="copy_right_footer">
+            Developed by Alex K
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
